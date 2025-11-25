@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Test de Estrés y Ansiedad</title>
+
+    <!-- Conectar con el CSS -->
+    <link rel="stylesheet" href="Ansiedad.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🧠 Test: ¿Tengo Estrés o Ansiedad?</h2>
+    <p>Marca una opción en cada pregunta:<br>
+    <strong>0 = Nunca | 1 = A veces | 2 = Frecuentemente | 3 = Siempre</strong></p>
+
+    <!-- Barra de progreso -->
+    <div class="progress-container">
+        <div class="progress-bar" id="barra"></div>
+    </div>
+
+    <form id="testAnsiedad">
+
+        <div id="preguntas"></div>
+
+        <button type="button" onclick="calcular()">Calcular resultado</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <div id="mensaje" style="margin-top:20px; font-size:17px; line-height:1.5;"></div>
+
+</div>
+
+<!-- Conectar con el JS -->
+<script src="Ansiedad.js"></script>
+
+</body>
+</html>
